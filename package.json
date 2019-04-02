@@ -1,0 +1,36 @@
+{
+  "name": "ssb-serial",
+  "version": "1.0.1",
+  "description": "sbot plugin that allows access to serial port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/ssb-serial.git"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regular/ssb-serial/issues"
+  },
+  "homepage": "https://github.com/regular/ssb-serial#readme",
+  "dependencies": {
+    "pull-stream": "^3.6.9",
+    "serialport": "^7.1.4",
+    "stream-to-pull-stream": "^1.7.3"
+  },
+  "devDependencies": {
+    "rc": "^1.2.8",
+    "scuttlebot-release": "ssbc/scuttlebot-release#11.3.x-fixups",
+    "ssb-client": "^4.7.1",
+    "ssb-keys": "^7.1.5"
+  },
+  "tre-init": {
+    "plugins": {
+      "ssb-serial": true
+    }
+  }
+}
