@@ -1,6 +1,6 @@
 {
   "name": "ssb-serial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sbot plugin that allows access to serial port",
   "main": "index.js",
   "scripts": {
